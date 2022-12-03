@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-03T15:09:12.021Z",
+        "line": 3,
+        "name": "search Computer Accessories In  Amazon Page",
+        "description": "",
+        "id": "purchase-computer-accessories-in-amazon;search-computer-accessories-in--amazon-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8368147200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Url",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5491570800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click Signin Page",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_click_signin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5940325000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter Id \u0026 Password then Submit",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_enter_id_password_then_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37234982900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Select The Electronic Product \u0026 Choose The Computer Accessories",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_select_the_electronic_product_choose_the_computer_accessories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9138103800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Select Any product of Computer Accessories",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_select_any_product_of_computer_accessories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Select The Lap Top Table",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_select_the_lap_top_table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Able To Change The Colour Of The Product",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_able_to_change_the_colour_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Able To Change The Quantity Of The Product",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_able_to_change_the_quantity_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user Click On Add to Cart Btn",
+            "match": {
+              "location": "org.stepdef.amazon.Stepdef_Amazon.user_click_on_add_to_cart_btn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "purchase Computer Accessories In Amazon",
+    "description": "",
+    "id": "purchase-computer-accessories-in-amazon",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Amazon.feature",
+    "tags": []
+  }
+]
